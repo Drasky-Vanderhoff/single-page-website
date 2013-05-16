@@ -4,14 +4,14 @@ use Rack::Static,
   :urls => ["/css", "/js", "/images", "/spec"],
   :root => "."
 
-require 'sprockets'
-map '/assets' do
-  environment = Sprockets::Environment.new
-  environment.append_path 'js'
-  environment.append_path 'stylesheets'
-  run environment
-end
-map '/' do
+# require 'sprockets'
+# map '/assets' do
+#   environment = Sprockets::Environment.new
+#   environment.append_path 'js'
+#   environment.append_path 'stylesheets'
+#   run environment
+# end
+#map '/' do
     run lambda { |env|
       [
         200,
@@ -22,4 +22,4 @@ map '/' do
         File.open('index.html', File::RDONLY)
       ]
     }
-end
+#end
