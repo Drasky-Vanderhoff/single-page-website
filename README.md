@@ -1,15 +1,3 @@
-heroku-static-site
-===========
-
-A simple ruby + rack application for serving a basic static website, suitable for deploying to [Heroku](http://heroku.com).
-Their free 1-dyno plan covers 80% of my projects and Just Works&trade;
-
-For even simpler free HTML cloud hosting check out [GitHub Pages](http://pages.github.com).
-
-I put static sites on Heroku when I will be adding some simple dynamic stuff later,
-or for redundancy with GH pages (whose uptime isn't perfect).
-
-
 Usage
 -----
 
@@ -28,10 +16,9 @@ Make something great, then push it to your [Heroku](http://heroku.com) account:
 3. `git push heroku master`
 
 
-
 License
 -------
 
-&copy; copyfree 2012 [Jamie Dubs](http://jamiedubs.com).
+&copy; copyfree 2013 [Alejandro Kondrasky].
 This source code made freely available under an [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
