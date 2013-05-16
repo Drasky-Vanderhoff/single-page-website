@@ -1,7 +1,7 @@
 $stdout.sync = true
 
 use Rack::Static,
-  :urls => ["/css", "/js", "/images", "/spec"],
+  :urls => ["/stylesheet", "/js", "/images", "/fonts"],
   :root => "."
 
 # require 'sprockets'
