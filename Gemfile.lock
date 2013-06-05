@@ -2,8 +2,6 @@ GEM
   remote: http://rubygems.org/
   specs:
     chunky_png (1.2.8)
-    cmdparse (2.0.5)
-    coderay (1.0.9)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -12,75 +10,20 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    em-websocket (0.5.0)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.5.3)
-    eventmachine (1.0.3)
+    compass-colors (0.9.0)
+      compass (>= 0.8.7)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    ffi (1.0.11)
-    formatador (0.2.4)
     fssm (0.2.10)
-    guard (1.8.0)
-      formatador (>= 0.2.4)
-      listen (>= 1.0.0)
-      lumberjack (>= 1.0.2)
-      pry (>= 0.9.10)
-      thor (>= 0.14.6)
-    guard-compass (0.0.6)
-      compass (>= 0.10.5)
-      guard (>= 0.2.1)
-    guard-livereload (1.4.0)
-      em-websocket (>= 0.5.0)
-      guard (>= 1.8.0)
-      multi_json (~> 1.7)
-    guard-process (1.0.5)
-      ffi (~> 1.0.9)
-      guard (>= 0.4.2)
-      spoon (~> 0.0.1)
-    guard-sass (1.1.0)
-      guard (>= 1.1.0)
-      sass (>= 3.1)
-    guard-uglify (0.1.0)
-      guard (>= 0.2.2)
-      uglifier
-    http_parser.rb (0.5.3)
-    juicer (1.0.21)
-      cmdparse
-      nokogiri (>= 1.5.0)
-      rubyzip
-    libv8 (3.11.8.17)
-    listen (1.1.3)
-      rb-fsevent (>= 0.9.3)
-      rb-inotify (>= 0.9)
-      rb-kqueue (>= 0.2)
-    lumberjack (1.0.3)
-    method_source (0.8.1)
     multi_json (1.7.3)
-    nokogiri (1.5.9)
-    pry (0.9.12.2)
-      coderay (~> 1.0.5)
-      method_source (~> 0.8)
-      slop (~> 3.4)
+    oily_png (1.1.0)
+      chunky_png (~> 1.2.7)
     rake (10.0.4)
-    rb-fsevent (0.9.3)
-    rb-inotify (0.9.0)
-      ffi (>= 0.5.0)
-    rb-kqueue (0.2.0)
-      ffi (>= 0.5.0)
-    ref (1.0.5)
-    rubyzip (0.9.9)
     sass (3.2.9)
-    slop (3.4.5)
-    spoon (0.0.4)
-      ffi
-    therubyracer (0.11.4)
-      libv8 (~> 3.11.8.12)
-      ref
-    thor (0.18.1)
-    uglifier (2.1.1)
-      execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+    sassy-buttons (0.2)
+    susy (1.0.8)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
 
 PLATFORMS
   ruby
@@ -88,16 +31,9 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   compass
-  guard
-  guard-compass
-  guard-livereload
-  guard-process
-  guard-sass
-  guard-uglify
-  juicer
+  compass-colors
+  oily_png
   rake
-  rb-fsevent
-  rb-inotify
   sass
-  therubyracer
-  uglifier
+  sassy-buttons
+  susy
